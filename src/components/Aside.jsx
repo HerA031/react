@@ -1,9 +1,14 @@
 import React from 'react'
 
-const Footer = () => {
-  return (
-    <footer>Footer</footer>
+const Aside = () => {
+  const links=[1,2,3,4,5,6]
+    return (
+    <aside>
+        <ul>
+            
+        </ul>
+    </aside>
   )
 }
 
-export default Footer
+export default Aside

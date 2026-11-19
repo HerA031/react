@@ -6,20 +6,15 @@ import Footer from './components/Footer'
 import Nav from './components/Nav'
 import Section from './components/Section'
 import Aside from './components/Aside'
+import main from './components/main'
+
 function App() {
 
   return (
-    <main className='container'>
-      <Header/>
-      <Nav/>
-      <div className="content">
-        <Section/>
-        <Article/>
-        <Aside/>
-      </div>
-      <Footer/>
-    </main>
-  )
+    <Header/>,
+    <Aside/>,
+    <Footer/>
+    )
 }
 
 export default App
