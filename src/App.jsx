@@ -8,20 +8,21 @@ import Section from './components/Section'
 import Aside from './components/Aside'
 import Main from './components/Main'
 import Button from './components/Button'
+import PostItem from './components/Postitem'
 
 function App() {
-
+  const posts = [
+    {id: 1, title: "React 시작하기", author: "홍길동"},
+    {id: 2, title: "JS 문법 정리", author: "김철수"},
+    {id: 3, title: "CSS 레이아웃", author: "이영희"},
+  ]
+  
   return (
-    <>
-    <Main content={'메인 영역입니다.'} bgColor={'skyblue'}/>
-    <h1>Hello React</h1>
-    <Button {...buttonProps}/>
-    <Button text={'메일'} color={'red'}/>
-    <Button text={'카페'} color={'blue'}/>
-      <strong>중요</strong>
-    <Button text={'블로그'}/>
-    </>
-    )
+    <div>
+      <h1>게시글</h1>
+      {/* posts map으로 PostItem 렌더 */}
+    </div>
+  );
 }
 
 export default App
