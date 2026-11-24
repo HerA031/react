@@ -6,6 +6,8 @@ import Counter from "./components/Counter";
 import Exam1 from "./components/Exam1";
 import Exam2 from "./components/Exam2";
 import Exam3 from "./components/Exam3";
+import FocusInput from "./components/FocusInput";
+import ClickLogger from "./components/ClickLogger";
 import "./App.css";
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
       <h1>Hello react!</h1>
       <Counter/>
       <Exam2/>
-      <Exam3/>
+      {/* <Exam3/> */}
+      <FocusInput/>
+      <ClickLogger/>
     </>
   )
 }
